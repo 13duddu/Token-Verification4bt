@@ -33,7 +33,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "Add_Your_Channel_ID_Here"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "Add_Your_Owner_ID_Here"))
 
 #Port
-PORT = os.environ.get("PORT", "8585")
+PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = "mongodb://127.0.0.1:27017"
@@ -48,8 +48,8 @@ DB_NAME = "filebot"
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "You_ShortLink_Provider_URL")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "Add_Your_ShortLink_API_Here")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkwale.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "0e4de51db19551ebd3f5529227fc1ffc3db43626")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/isyrae") # You can add here your tutorial video

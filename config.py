@@ -18,26 +18,27 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "Add_Your_Token_Here")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8340697651:AAFf1f1dDDlzOY-5G7LYyTJfps4qiT8W6Qc")
 
 #Your API ID HASH from my.telegram.org 
-APP_ID = int(os.environ.get("APP_ID", "Add_Your_API_ID_Here"))
+APP_ID = int(os.environ.get("APP_ID", "24314601"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "Add_Your_API_HASH_Here")
+API_HASH = os.environ.get("API_HASH", "ede341e2d490a0fad5469866dedf8a95
+")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "Add_Your_Channel_ID_Here"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002784538461"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "Add_Your_Owner_ID_Here"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "640617767"))
 
 #Port
 PORT = os.environ.get("PORT", "8585")
 
 #Database 
-DB_URI = "mongodb://127.0.0.1:27017"
-DB_NAME = "filebot"
+DB_URI = "mongodb+srv://40duddududdu:40duddududdu@cluster0.svijboc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_NAME = "cluster0"
 
 # ──────────────────────────────────────────────────────────
 #  📦 File Sharing Token Bot
@@ -55,7 +56,7 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/isyrae") # You can add here your tutorial video
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "Add_Your_ForceSub_Channel"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002800034830"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
